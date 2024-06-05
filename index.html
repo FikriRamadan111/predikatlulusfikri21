@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predikat Kelulusan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Penentuan Kelulusan</h1>
+        <form id="gradeForm">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+            
+            <label for="kelas">Kelas:</label>
+            <input type="text" id="kelas" name="kelas" required>
+
+            <label for="jurusan">Jurusan:</label>
+            <select id="jurusan" name="jurusan" required>
+                <option value="RPL">RPL</option>
+                <option value="MM">MM</option>
+                <option value="OTKP">OTKP</option>
+                <option value="PKM">PKM</option>
+            </select>
+
+            <label for="nilai">Masukkan Nilai:</label>
+            <input type="number" id="nilai" name="nilai" required>
+            
+            <button type="submit">Cek Kelulusan</button>
+            <h4><small>Copyright &copy; Fikrirmdn</small></h4>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
