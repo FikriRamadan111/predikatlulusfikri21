@@ -1,0 +1,1 @@
+# predikatlulusfikri21
